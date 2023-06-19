@@ -583,9 +583,11 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
-.about .content h3 {
-  font-weight: 600;
-  font-size: 26px;
+.about .content h4 {
+  text-align: center;
+}
+.about .content p {
+  text-align: justify;
 }
 
 .about .content ul {
@@ -594,6 +596,7 @@ section {
 }
 
 .about .content ul li {
+  text-align: justify;
   padding-left: 28px;
   position: relative;
 }
