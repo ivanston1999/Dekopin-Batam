@@ -256,3 +256,7 @@
   });
 
 })()
+
+function toggleImageSize(element) {
+  element.classList.toggle("card-image-large");
+}
