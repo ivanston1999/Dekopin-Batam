@@ -47,11 +47,6 @@
       class="fixed-top"
       style="background-color: rgb(78, 85, 85)"
     >
-    <header
-      id="header"
-      class="fixed-top"
-      style="background-color: rgb(78, 85, 85)"
-    >
       <div class="container d-flex align-items-center">
         <h1 class="logo me-auto"><a href="index.html">DEKOPIN BATAM</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
@@ -61,29 +56,68 @@
           <ul>
             <li><a class="nav-link scrollto" href="/index.html">Beranda</a></li>
             <li class="dropdown">
-              <a href="#about"
-                ><span>Profil</span> <i class="bi bi-chevron-down"></i
-              ></a>
-              <ul>
-                <li><a href="profildekopin.html">Profil Dekopin</a></li>
-                <li><a href="profilketua.html">Profil Ketua Dekopin</a></li>
-                <li><a href="visi-misi.html">Visi & Misi</a></li>
-                <li><a href="tugas-fungsi.html">Tugas dan Fungsi</a></li>
-                <li><a href="/struktur.html">Pengurus</a></li>
+              <a
+                class="nav-link scrollto"
+                href="#about"
+                role="button"
+                id="navbarDropdown"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Profil
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="/profildekopin.html"
+                    >Profil Dekopin</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/profilketua.html"
+                    >Profil Ketua Dekopin</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/visi-misi.html">Visi Misi</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/tugas-fungsi.html"
+                    >Tugas dan Fungsi</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/struktur.html"
+                    >Struktur Organisasi
+                  </a>
+                </li>
               </ul>
             </li>
 
             <!-- <li><a class="nav-link scrollto" href="#portfolio">Berita</a></li> -->
             <li class="dropdown">
-              <a href="#about"
-                ><span>Regulasi</span> <i class="bi bi-chevron-down"></i
-              ></a>
-              <ul>
-                <li><a href="#submenu1">Sub Menu 1</a></li>
-                <li><a href="#submenu2">Sub Menu 2</a></li>
-                <li><a href="#submenu3">Sub Menu 3</a></li>
+              <a
+                class="nav-link scrollto"
+                href="#about"
+                role="button"
+                id="navbarDropdown"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Regulasi
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#sub-menu1">Sub Menu 1</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#sub-menu2">Sub Menu 2</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#sub-menu3">Sub Menu 3</a>
+                </li>
               </ul>
             </li>
+
             <li>
               <a class="nav-link scrollto" href="#penghargaan">Penghargaan</a>
             </li>
@@ -114,11 +148,7 @@
     <section
       id="hero"
       class="d-flex align-items-center"
-      style="
-        background-image: url(assets/img/dekopinda.jpg);
-        background-size: cover;
-        background-position: center;
-      "
+      style="background-image: url(assets/img/dekopinda.jpg)"
     >
       <div class="container">
         <div class="row">
@@ -185,7 +215,7 @@
               class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
             >
               <img
-                src="assets/img/clients/pemkot-batam.png"
+                src="assets/img/clients/appeknas.png"
                 class="img-fluid"
                 alt=""
               />
@@ -195,7 +225,7 @@
               class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
             >
               <img
-                src="assets/img/clients/pemkot-riau.png"
+                src="assets/img/clients/astaki.png"
                 class="img-fluid"
                 alt=""
               />
@@ -209,11 +239,10 @@
       <!-- <section id="about" class="about">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-<<<<<<< HEAD
+
             <h2>Berita Terbaru </h2>
-=======
+
             <h2>Tentang Dekopin</h2>
->>>>>>> 6f8458cabc30ccb2acc2d6b9348b1b18d984538e
           </div>
 
           <div class="row content">
