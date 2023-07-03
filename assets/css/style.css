@@ -1324,3 +1324,52 @@ section {
 .text-wrapper {
   overflow: hidden;
 }
+
+/* page berita  */
+.news-container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .news-image {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+
+    .news-content {
+      overflow: hidden;
+    }
+
+    .news-content p {
+      margin-bottom: 10px;
+    }
+
+    .news-content a {
+      display: block;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .news-container {
+        padding: 10px;
+      }
+
+      .news-image {
+        float: none;
+        max-width: 100%;
+        margin-right: 0;
+      }
+
+      .text-wrapper {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+      }
+    }
