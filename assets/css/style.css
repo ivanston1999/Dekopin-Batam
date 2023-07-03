@@ -1318,7 +1318,7 @@ section {
 
 .image-wrapper {
   float: left;
-  margin-right: 60px;
+  margin-right: 25px;
 }
 
 .text-wrapper {
@@ -1340,7 +1340,7 @@ section {
       height: auto;
       float: left;
       margin-right: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     .news-content {
